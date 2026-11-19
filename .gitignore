@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+coverage/
+next-env.d.ts
+*.tsbuildinfo
+*.log
+
+# Local data and environment
+.data/
+.env*
+!.env.example
+.vercel/
+
+# Local agent configuration
+AGENTS.md
+.codex/
